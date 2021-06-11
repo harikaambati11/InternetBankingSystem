@@ -1,0 +1,188 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("bg3.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+.topbar1{
+	width: 100%;
+	height: 4px;
+	background-color: #dd634d;
+}
+.topbar2{
+	width: 100%;
+	height: 30px;
+	background-color:  #203041;
+}
+.container1{
+	width: 1000px;
+	height: 30px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+.container2{
+	width: 1000px;
+	height: 30px;
+	background-color: transparent;
+	margin: 0 auto;
+}
+.logout-btn{
+	width: 150px;
+	height: 30px;
+	float: right;	
+}
+.logout-btn a{
+	display: block;
+	color: white;
+	text-decoration:  none;
+	padding: 4px;
+}
+.header{
+	width: 100%;
+	height: 40px;
+	float:	left;
+	background-color:#30ccb7;
+	box-shadow: 0 0, 0 6px 20px 0 rgba(0, 0, 0, .14);
+}
+.navbar{
+	width: 700px;
+	float: left;
+	text-align: left;
+	padding-top:10px;
+	padding-bottom: 10px;	
+}
+.navbar a{
+	display: inline-block;
+	color:	black;
+	text-decoration:none;
+	padding: 0 10px;
+	font-weight:bold;
+}
+.navbar a:hover{
+	color: white;
+	background-color: black;
+	padding: 0 10px;
+}
+
+.active{
+	width:1000px;
+	min-height:688px;
+	background-color: rgb(235, 224, 224);
+	margin: 0 auto;
+	padding: 0px 0px 0px 0px;
+}
+.filler{
+	width:100%;
+	height:50px;
+	background-color: transparent;
+}
+
+.bigcard {
+  margin:0px 0px 0px 0px;
+  position : relative;
+  width:100%;
+  min-height: 688px;
+  border-radius:10px;
+  background: rgb(153, 236, 229);
+}
+.big button{
+  background-color: rgb(80, 140, 155);
+  color: rgb(20, 19, 19);
+  margin: 50px 50px 50px 300px;
+  width: 400px;
+  height: 40px;
+}
+.big .a{
+  
+  text-decoration:none;
+  font-weight:bold;
+  
+
+
+}
+.bigcard1{
+  float:left;
+  width:50%;
+  min-height:488px;
+  background: rgb(114, 98, 98);
+  text-align: center;
+}
+.bigcard11{
+  float:left;
+  width:100%;
+  min-height:388px;
+  background: rgb(226, 226, 146);
+  text-align: center;
+}
+.bigcard22{
+  float:left;
+  width:100%;
+  min-height:388px;
+  background: rgb(209, 167, 214);
+  text-align: center;
+}
+.bigcard2{
+  float:right;
+  width:50%;
+  min-height:488px;
+  background:rgb(114, 98, 98);
+  text-align:center;
+}
+
+.bigcard1 input[type="text"],.bigcard1 input[type="date"]
+{
+	position:relative;
+	padding: 5px;
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	border: 1px solid black;
+	border-radius:5px;
+	outline: none;
+	color: black;
+	height: 25px;
+	background: White;
+	font-size: 18px;
+	text-align:left;	
+}
+
+.bigcard2 p{
+	padding:10px 0 10px 0;
+}
+.bigcard2 input[type="text"]{
+	position: realtive;
+	padding: 5px;
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+	border: 1px solid black;
+	border-radius:5px;
+	outline: none;
+	color: black;
+	height: 25px;
+	background: White;
+	font-size: 18px;
+	text-align:left;
+}
+.bigcard2 input[type="submit"] {
+	height: 35px;
+	width: 220px;
+	box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.2);
+	border-radius:5px;
+	background-color: #0ca1a6;
+	color: white;
+	border:1px solid #0ca1a6;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.bigcard2 input[type="submit"]:hover{
+  background-color: #4CAF50;
+  border:1px solid #4CAF50;
+  color: white;
+}
