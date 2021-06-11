@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+    background-image: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+	background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+.about-section{
+    text-align:center;
+    background-color: rgba(171, 221, 233, 0.877);
+    height:100%;
+    width: 100%;
+    background-position : center;
+    margin : 0px 0px 0px 0px;
+}
+
+.about-section .b{
+    text-align:center;
+}
+
+.about-section .h2{
+    font-family:serif;
+    
+}
